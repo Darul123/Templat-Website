@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    z-index: 10;
+    background: #fff;
+}
+
+.nav-item a{
+    font-weight: 500;
+}
+
+.nav-item a.login{
+    font-weight: 500;
+    padding: 7px 30px;
+    border: 1px solid #87bdc3;
+    color: #87bdc3;
+    display: inline-block;
+}
+
+.nav-item a.login:hover {
+    border: 1px solid transparent;
+    background: #87bdc3;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.nav-left h4 span{
+    color: #87bdc3;
+}
+
+.jumbotron {
+    background: url("./assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding: 50px 0 0 0;
+    margin-top: 105px;
+}
+
+.header-left {
+    padding: 50px 0 0 50px;
+}
+
+.header-left h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.header-left p{
+    width: 80%;
+    font-size: 17px;
+    margin: 32px 0;
+}
+
+.header-left button{
+    padding: 10px 30px;
+    background: #87bdc3;
+    border: transparent;
+}
+
+.header-right{
+    position: relative;
+    z-index: 1;
+}
+
+.header-right img{
+    width: 500px;
+    position: absolute;
+    top: -50px;
+    left: 40px;
+}
+
+button.trial:hover {
+    background: #598e94;
+    transition: 0.7s;
+}
+
+.header-left button.premium {
+    border: 1px solid #598e94;
+    background: transparent;
+    color: #598e94;
+}
+
+.header-left button.premium:hover {
+    border: 1px solid transparent;
+    background: #598e94;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.data-wrapper {
+    width: 100px;
+    padding: 0 15px;
+    color: rgb(82, 82, 82);
+}
+
+.data-wrapper h4 {
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
+.data-wrapper p {
+    font-size: 15px;
+    font-weight: 200;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.brand-wrapper {
+    padding: 30px 0;
+}
+
+.brand {
+    height: 40px;
+    margin: 0 15px;
+}
+
+.card {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    overflow: hidden;
+}
+
+.section-2 {
+    position: relative;
+}
+
+.feature-wrapper {
+    margin-top: -80px;
+}
+
+.feature-icon {
+    width: 40px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background: #598e94;
+    border-radius: 5px;
+}
+
+.btn-block {
+    background: #598e94;
+    border: none;
+}
+
+.btn-block:hover {
+    background: rgb(71, 99, 102);
+}
+
+.content-left {
+    position: relative;
+    height: 450px;
+}
+
+.content-left img{
+    position: absolute;
+    width: 500px;
+    left: 30px;
+}
+
+.content-right {
+    height: 450px;
+}
+
+.content-right h3{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0 0 15px 0;
+    color: #002e33;
+}
+
+.content-right p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.price-box {
+    width: 270px;
+    height: auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 30px 15px;
+}
+.popular {
+    background: #598e94;
+    color: #fff;
+}
+.price-isi h1{
+    font-size: 15px;
+    font-weight: 500;
+}
+.price-isi h2{
+    font-size: 10px;
+    font-weight: 300;
+}
+.price-isi h2 span{
+    font-size: 35px;
+    font-weight: 800;
+}
+.price-isi p{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #000;
+}
+.popular {
+    width: 280px;
+    height: 466px;
+}
+.popular .price-isi button{
+    margin-top: 68px;
+    color: #598e94;
+    background: #fff;
+}
+.popular .price-isi p{
+    border-bottom: 1px solid #fff;
+}
+.price-isi ul{
+    margin: 20px 0 0 13px;
+}
+.price-isi ul li{
+    list-style: circle;
+    font-size: 10px;
+    margin: 0 0 10px 0;
+}
+.price-isi button{
+    width: 100%;
+    height: 35px;
+    border-radius: 6px;
+    margin: 40px 0 0 0;
+    border: none;
+    background: #598e94;
+    color: #fff;
+    font-weight: 600;
+}
+.price-title {
+    font-weight: 700;
+}
+.price-subtitle {
+    font-size: 15px;
+    font-weight: 300;
+}
+.contact-left {
+    margin-right: 300px;
+}
+.contact-left h3:first-child {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 3px 0;
+}
+.contact-left h3:nth-child(2) {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+.contact-right a {
+    padding: 10px 30px;
+    background: #598e94;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid transparent;
+    text-align: center;
+    width: 190px;
+}
+.contact-right a:hover {
+    background: rgb(71, 99, 102);
+    border: 1px solid transparent;
+    color: #fff;
+    transition: 0.7s;
+}
+.contact-right a:first-child {
+    margin: 0 15px 0 0;
+}
+.contact-right a:nth-child(2) {
+    border: 1px solid #598e94;
+    color: #598e94;
+    background: transparent;
+}
+.contact-right a:nth-child(2):hover {
+    background: rgb(71, 99, 102);
+    border: 1px solid transparent;
+    color: #fff;
+    transition: 0.7s;
+}
+section.contact-us {
+    position: relative;
+}
+.contact-wrapper {
+    margin-bottom: -90px;
+    background: #fff;
+    padding: 30px 50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 7px;
+    width: 100%;
+}
+footer {
+    padding: 80px 0 10px 0;
+    color: #fff;
+    background: #41676b;
+}
+.footer-left {
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-left .logo p {
+    color: #fff;
+}
+.footer-right {
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer-right a{
+    color: #fff;
+}
+.footer-right i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0 0 0 5px;
+    color: #41676b;
+    background: #fff;
+}
+.footer-right p{
+    text-align: right;
+}
+
+/* Dashboard */
+
+.sidebar nav a.navbar-brand {
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+}
+.brand2 {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 10px 0 10px;
+} 
+.menu {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px;
+    color: #fff;
+}
+a.nav-link {
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+}
+.nav-link:hover {
+    background-color: #ffffff;
+    color: #343a40;
+}
+.nav-link i {
+    padding: 0 15px 0 0;
+}
+.nav-link i.booking {
+    padding: 0 16px 0 2px;
+}
+a.nav-link.dropdown-toggle::after {
+    margin: 0 0 0 60px;
+}
+.user-icon {
+    padding: 0 16px 0 2px;
+}
+a.nav-link.dropdown-toggle.user::after {
+    margin: 0 0 0 20px;
+}
+.user-icon img{
+    width: 50px;
+    border-radius: 50px;
+}
+.leader-list {
+    border: 1px solid rgb(212, 212, 212);
+    padding: 5px;
+    margin: 7px 5px;
+    border-radius: 15px;
+}
+.leader-list .col-1 {
+    position: relative;
+    padding: 5px;
+}
+.leader-list .col-1 img {
+    width: 30px;
+    border-radius: 15px;
+    padding: 0;
+}
+.leader-list .col-1 p {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    background: #598e94;
+    color: #fff;
+    display: block;
+    font-size: 7px;
+    font-weight: 700;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.leader-list .col-9 p {
+    font-size: 10px;
+    font-weight: 200;
+}
+.button-course {
+    background: #fff;
+    color: #000;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.button-course.completed {
+    background: #598e94;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+.button-course.your-class {
+    margin: 60px 0 0 0;
+}
+.img-course {
+    position: relative;
+}
+.img-course img {
+    width: 110px;
+    position: absolute;
+    right: -2px;
+    bottom: -15px;
+    opacity: 0.4;
+}
+.progress-bar {
+    background: #598e94;
+}
+.discuss-user {
+    width: 35px;
+    border-radius: 35px;
+}
+.discuss-icon {
+    width: 30px;
+}
+.discuss-btn a img {
+    width: 17px;
+    display: inline-block;
+    margin: 0 5px;
+}

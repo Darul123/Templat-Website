@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/020f45a6ec.js" crossorigin="anonymous"></script>
+    <title>Dashboard Home</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 text-white" style="height: auto; background-color: #41676b">
+                <div class="sidebar position-fixed">
+                  <nav>
+                    <a class="navbar-brand pt-5 pl-3 mb-5 pb-3" href="#">
+                      MyCourse
+                    </a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item text-white">
+                            <a class="nav-link active menu font-weight-normal" href="./dashboard.html"><i class="fas fa-home"></i>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="nav-link dropdown-toggle menu font-weight-normal"><i class="fas fa-book-open"></i>Your Class</a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a class="nav-link pl-4 font-weight-normal" href="./dashboard_class.html"><i class="fas fa-hourglass-half"></i>Uncompleted</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link pl-4 font-weight-normal" href=""><i class="far fa-check-circle"></i>Completed</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu font-weight-normal" href="./dashboard_discuss.html"><i class="far fa-comments"></i>Disscusion</a>
+                        </li>
+                    </ul>
+                  </nav>
+                </div>
+            </div>
+            <div class="col-10" style="background-color: #41676b; padding: 15px 15px 15px 0;">
+                <div class="container-fluid bg-light" style="border-radius: 15px; padding: 20px;">
+                    <div class="row">
+                        <div class="container-fluid">
+                            <div class="col-12 px-0">
+                                <nav class="navbar navbar-expand navbar-light px-0" style="background: none;">
+                                    <div class="user-icon d-flex align-items-center">
+                                        <img src="./assets/User.jpg" alt="">
+                                        <h4 class="ml-4 font-weight-bold">Hi User!</h4>
+                                    </div>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav text-dark ml-auto">
+                                            <li class="nav-item mr-3">
+                                                <a href="" class="nav-link"><i class="fas fa-bell p-0 m-0"></i></a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle user text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="fas fa-user user-icon"></i>Username
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item" href="#">Profile</a>
+                                                    <a class="dropdown-item" href="#">Setting</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="./index.html">Logout</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row px-4">
+                        <div class="col-6 p-0 pr-2">
+                            <div class="row pt-5">
+                                <h4 class="pl-4 pb-4">Popular Class</h4>
+                                <div class="col-12 pb-3">
+                                    <div class="card" style="width: 100%; border-radius: 15px; border: none; background-image: linear-gradient(#fd8548, #ffd560);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <h4 class="text-white" style="margin-bottom: 35px;">Title Class</h4>
+                                                    <button class="btn mt-5 button-course" type="submit">Start</button>
+                                                </div>
+                                                <div class="col-6 img-course">
+                                                    <img src="./assets/html5White.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 pr-2">
+                                    <div class="card" style="width: 100%; border-radius: 15px; border: none; background-image: linear-gradient(#007991, #78ffd6);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <h4 class="text-white" style="margin-bottom: 35px;">Title Class</h4>
+                                                    <button class="btn mt-5 button-course" type="submit">Start</button>
+                                                </div>
+                                                <div class="col-6 img-course">
+                                                    <img src="./assets/Css3White.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 pl-2">
+                                    <div class="card" style="width: 100%; border-radius: 15px; border: none; background-image: linear-gradient(#ffce47, #ffe189);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <h4 class="text-white" style="margin-bottom: 35px;">Title Class</h4>
+                                                    <button class="btn mt-5 button-course" type="submit" >Start</button>
+                                                </div>
+                                                <div class="col-6 img-course">
+                                                    <img src="./assets/jsWhite.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 pl-2">
+                            <div class="row pt-5">
+                                <h4 class="pl-4 pb-4">Leader Board</h4>
+                                <div class="col-12 pb-3">
+                                    <div class="card p-3" style="width: 100%; border-radius: 15px;">
+                                        <div class="card-body p-0">
+                                            <div class="row leader-list d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <img src="./assets/User.jpg" alt="">
+                                                    <p class="m-0">1</p>
+                                                </div>
+                                                <div class="col-9 ">
+                                                    <h5 class="p-0 m-0">John Doe</h5>
+                                                    <p class="p-0 m-0">School Name</p>
+                                                </div>
+                                                <div class="col-2 d-flex align-items-center justify-content-between">
+                                                    <div>
+                                                        <i class="fas fa-award" style="font-size: 15px; color: gold;"></i>
+                                                    </div>
+                                                    <div>330</div>
+                                                </div>
+                                            </div>
+                                            <div class="row leader-list d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <img src="./assets/User.jpg" alt="">
+                                                    <p class="m-0">2</p>
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5 class="p-0 m-0">Amelia Marie</h5>
+                                                    <p class="p-0 m-0">School Name</p>
+                                                </div>
+                                                <div class="col-2 d-flex align-items-center justify-content-between">
+                                                    <div>
+                                                        <i class="fas fa-award" style="font-size: 15px; color: silver;"></i>
+                                                    </div>
+                                                    <div>320</div>
+                                                </div>
+                                            </div>
+                                            <div class="row leader-list d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <img src="./assets/User.jpg" alt="">
+                                                    <p class="m-0">3</p>
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5 class="p-0 m-0">Ryan Joe</h5>
+                                                    <p class="p-0 m-0">School Name</p>
+                                                </div>
+                                                <div class="col-2 d-flex align-items-center justify-content-between">
+                                                    <div>
+                                                        <i class="fas fa-award" style="font-size: 15px; color: #CD7F32;"></i>
+                                                    </div>
+                                                    <div>300</div>
+                                                </div>
+                                            </div>
+                                            <div class="row leader-list d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <img src="./assets/User.jpg" alt="">
+                                                    <p class="m-0">4</p>
+                                                </div>
+                                                <div class="col-9">
+                                                    <h5 class="p-0 m-0">Kathy Bell</h5>
+                                                    <p class="p-0 m-0">School Name</p>
+                                                </div>
+                                                <div class="col-2 d-flex align-items-center justify-content-end">
+                                                    <div>290</div>
+                                                </div>
+                                            </div>
+                                            
+                                            <button type="button" class="btn btn-secondary btn-lg btn-block mt-4" style="border-radius: 20px;">See All</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row px-4">
+                        <div class="col-6 p-0 pr-2">
+                            <div class="row pt-5">
+                                <h4 class="pl-4 pb-4">Your Class</h4>
+                                <div class="col-12 pb-3">
+                                    <div class="card d-flex" style="width: 100%; border-radius: 15px; border: none; background-image: linear-gradient(#007991, #78ffd6);">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <h4 class="text-white mb-4">Title Class</h4>
+                                                    <p class="text-white" style="width: 150%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cum est voluptates consequuntur numquam ea tempore a! Ad autem minima nulla. Veniam quam explicabo est, exercitationem amet molestias nam deleniti? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, provident.</p>
+                                                    <button class="btn button-course your-class" type="submit">Continue</button>
+                                                </div>
+                                                <div class="col-6 img-course">
+                                                    <img src="./assets/Css3White.png" alt="" style="width: 180px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 p-0 pl-2">
+                            <div class="row pt-5">
+                                <h4 class="pl-4 pb-4">Chart</h4>
+                                <div class="col-12 pb-3">
+                                    <div class="card p-3 d-flex" style="width: 100%; border-radius: 15px;">
+                                        <div class="card-body p-0">
+                                            <canvas id="myChart" class="chart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row px-4">
+                        <div class="col-12 p-0 pr-2">
+                            <div class="row pt-5">
+                                <h4 class="pl-4 pb-4">Completed Class</h4>
+                                <div class="col-12 pb-3">
+                                    <div class="card" style="width: 100%; border-radius: 15px; border: none;">
+                                        <div class="card-body py-3 px-4">
+                                            <div class="row">
+                                                <div class="col-6 d-flex align-items-center">
+                                                    <h5 class="p-0 m-0">Title Class</h5>
+                                                </div>
+                                                <div class="col-6 d-flex justify-content-end align-items-center">
+                                                    <div class="progress mr-3" style="width: 300px; border-radius: 10px;">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%; border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                                      </div>
+                                                    <button class="btn button-course completed" type="submit" style="padding: 3px 15px;">See Certificate</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb-3">
+                                    <div class="card" style="width: 100%; border-radius: 15px; border: none;">
+                                        <div class="card-body py-3 px-4">
+                                            <div class="row">
+                                                <div class="col-6 d-flex align-items-center">
+                                                    <h5 class="p-0 m-0">Title Class</h5>
+                                                </div>
+                                                <div class="col-6 d-flex justify-content-end align-items-center">
+                                                    <div class="progress mr-3" style="width: 300px; border-radius: 10px;">
+                                                        <div class="progress-bar" role="progressbar" style="width: 100%; border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                                      </div>
+                                                    <button class="btn button-course completed" type="submit" style="padding: 3px 15px;">See Certificate</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('myChart');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+                datasets: [{
+                    label: '# Points Earned This Week',
+                    data: [54, 52, 55, 51, 53],
+                    backgroundColor: [
+                        'rgba(180, 180, 180, 0.1)',
+                    ],
+                    borderColor: [
+                        '#598e94',
+                    ],
+                    borderWidth: 4,
+                    fill: true,
+                    tension: 0.3
+                }],
+            },
+            options: {
+                scales: {
+                    x: {
+                      grid : {
+                        display: false
+                      }
+                    },
+                    y: {
+                        display: false,
+                        beginAtZero: true,
+                        position: 'left',
+                        min: 50,
+                        max: 56,
+                        grid: {
+                          display: false
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
