@@ -215,6 +215,12 @@ button.trial:hover {
     padding: 0 0 20px 0;
     border-bottom: 1px solid #000;
 }
+.price-isi button:hover{
+    background: none;
+    border: 1px solid #598e94;
+    color: #598e94;
+    transition: 0.7s;
+}
 .popular {
     width: 280px;
     height: 466px;
@@ -223,6 +229,12 @@ button.trial:hover {
     margin-top: 68px;
     color: #598e94;
     background: #fff;
+}
+.popular .price-isi button:hover{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.7s;
 }
 .popular .price-isi p{
     border-bottom: 1px solid #fff;
